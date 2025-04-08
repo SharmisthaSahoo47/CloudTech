@@ -16,6 +16,7 @@ try:
         content = file.read()
         print("\nReading from file:")
         print(content)
+        print("\done without pull")
 
  except FileNotFoundError:
     print(f"Error: The file {file_name} does not exist or misplaced.")
