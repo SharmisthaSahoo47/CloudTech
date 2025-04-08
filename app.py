@@ -17,6 +17,6 @@ try:
         print("\nReading from file:")
         print(content)
 
-except FileNotFoundError:
-    print(f"Error: The file {file_name} does not exist.")
+ except FileNotFoundError:
+    print(f"Error: The file {file_name} does not exist or misplaced.")
 
